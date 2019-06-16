@@ -22,3 +22,8 @@ environment: macOS Mojave 10.14.5 (client), CentOS 7 (server), hadoop 2.9.2
 13. edit "Run/Debug Configuration" as follow
 ![image](https://github.com/zhnyuren/hadoop-remote-debug/blob/master/images/pic5.png)
 14. you can debug the hadoop project remotely using intellij idea
+
+note:
+1. keep "mysqld" and "mysqld_safe" daemon using "sudo mysqld_safe --skip-grant-tables &"
+2. check "mysqld" using "ps -A | grep mysql"
+3. check the hive and its connection with mysql using "hive"
