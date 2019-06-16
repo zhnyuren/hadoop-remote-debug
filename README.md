@@ -21,9 +21,10 @@ environment: macOS Mojave 10.14.5 (client), CentOS 7 (server), hadoop 2.9.2
 12. create a new Maven project using intellij idea and copy "core-site.xml" from server to directory ProjectName/src/main/resources/ and delete hadoop.tmp.dir configuration or it will generate the wrong tmp dir on your client.
 13. edit "Run/Debug Configuration" as follow
 ![image](https://github.com/zhnyuren/hadoop-remote-debug/blob/master/images/pic5.png)
-14. you can debug the hadoop project remotely using intellij idea
+14. enjoy debugging the hadoop project remotely using intellij idea!
 
 note:
 1. keep "mysqld" and "mysqld_safe" daemon using "sudo mysqld_safe --skip-grant-tables &"
 2. check "mysqld" using "ps -A | grep mysql"
 3. check the hive and its connection with mysql using "hive"
+4. note the difference between hdfs dir and Linux dir
