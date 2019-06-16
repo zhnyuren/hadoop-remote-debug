@@ -5,7 +5,7 @@ environment: macOS Mojave 10.14.5 (client), CentOS 7 (server), hadoop 2.9.2
 
 1. install hadoop 2.9.2, hdfs, mysql, hive on server
 2. install hadoop 2.9.2 (same version with the server) on macOS and configure environment path
-3. edit /etc/hosts on the server
+3. edit /etc/hosts on the server (127.0.1.1 should be commented)
 ![image](https://github.com/zhnyuren/hadoop-remote-debug/blob/master/images/pic1.png)
 4. edit $HADOOP_HOME/etc/hadoop/core-site.xml file (change "localhost" to hostname)
 ![image](https://github.com/zhnyuren/hadoop-remote-debug/blob/master/images/pic2.png)
